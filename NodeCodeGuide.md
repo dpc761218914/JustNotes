@@ -3,51 +3,6 @@
 关于Node项目开发时实现一致且美观的 Node.js 代码的风格指南。（网络整理并融入个人观点）
 
 
-## 使用分号
-
-是否使用分号，在社区争论已久。
-isaac 也写过一篇讨论的[文章](http://blog.izs.me/post/2353458699/an-open-letter-to-javascript-leaders-regarding)，
-但是，当可以用廉价的语法来消除一些可能引入的错误的时候，请当一个保守派。
-
-## 使用单引号
-
-除非编写.json文件，其他时候都请用单引号包裹字符串。
-
-*Right:*
-
-```js
-var foo = 'bar';
-```
-
-*Wrong:*
-
-```js
-var foo = "bar";
-```
-
-## 大括号位置
-
-请把你的所有的左大括号都放在语句开始的这一行。
-
-*Right:*
-
-```js
-if (true) {
-  console.log('winning');
-}
-```
-
-*Wrong:*
-
-```js
-if (true)
-{
-  console.log('losing');
-}
-```
-
-同时，请注意在条件判断前后都添加一个空格。
-
 ## 每个变量声明都带一个 var
 
 每个变量声明都带一个 var ，这样删除或者调整变量声明的顺序会更加容易。
@@ -171,6 +126,54 @@ var b = {"good": 'code'
         , is generally: 'pretty'
         };
 ```
+
+
+
+## 使用分号
+
+是否使用分号，在社区争论已久。
+isaac 也写过一篇讨论的[文章](http://blog.izs.me/post/2353458699/an-open-letter-to-javascript-leaders-regarding)，
+但是，当可以用廉价的语法来消除一些可能引入的错误的时候，请当一个保守派。
+
+## 使用单引号
+
+除非编写.json文件，其他时候都请用单引号包裹字符串。
+
+*Right:*
+
+```js
+var foo = 'bar';
+```
+
+*Wrong:*
+
+```js
+var foo = "bar";
+```
+
+## 大括号位置
+
+请把你的所有的左大括号都放在语句开始的这一行。
+
+*Right:*
+
+```js
+if (true) {
+  console.log('winning');
+}
+```
+
+*Wrong:*
+
+```js
+if (true)
+{
+  console.log('losing');
+}
+```
+
+同时，请注意在条件判断前后都添加一个空格。
+
 
 ## 使用 === 比较符
 
