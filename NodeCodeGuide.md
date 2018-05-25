@@ -1,15 +1,7 @@
-# Node.js Style Guide
+# Node.js 开发规范
 
-这是一份关于如何写出一致且美观的 Node.js 代码的风格指南。
-它从社区最流行的写法中抽取出来，同时融入了部分个人观点。
+关于Node项目开发时实现一致且美观的 Node.js 代码的风格指南。（网络整理并融入个人观点）
 
-这份指南由 [Felix](http://felixge.de/) 编写。
-通过 [CC BY-SA 3.0](http://creativecommons.org/licenses/by-sa/3.0/) 发布。
-你可以 fork 这份指南，并针对自己的需求的进行部分的调整。
-
-中文指南由 [dead_horse](http://deadhorse.me) 翻译，同时根据个人和团队经验有部分增加条目。
-
-![Creative Commons License](http://i.creativecommons.org/l/by-sa/3.0/88x31.png)
 
 ## 2空格缩进
 
